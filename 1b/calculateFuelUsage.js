@@ -8,4 +8,4 @@ const calculateFuelUsage = (mass, sum = 0) => {
   return calculateFuelUsage(fuelUsage, sum + fuelUsage);
 }
 
-module.exports = sum => calculateFuelUsage(sum);
+module.exports = mass => calculateFuelUsage(mass);
